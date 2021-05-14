@@ -2,9 +2,6 @@ import kotlin.random.Random
 
 fun main(args: Array<String>) {
 
-    var clarray = clasearray(10){ Random.nextInt(50, 250)}
-
-    clarray.arr.forEach { println(it) }
-
+    var clarray =ejer3().metodo3(clasearray(10){ Random.nextInt(50, 250)}.arr)
 
 }
